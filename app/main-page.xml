@@ -1,0 +1,38 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:chart="nativescript-telerik-ui-pro/chart" loaded="pageLoaded">
+  <ActionBar title="Bill Murray Quotes" class="action-bar">
+    <ActionItem tap="loadQuote" ios.systemIcon="13" ios.position="right" android.systemIcon="ic_menu_rotate" android.position="actionBar" />
+  </ActionBar>
+  <TabView class="tab-view">
+    <TabView.items>
+      <TabViewItem title="&#xf10d; Quotes &#xf10e;">
+        <TabViewItem.view>
+          <StackLayout class="tab-content" id="layout">
+            <Label text="{{ quote }}" class="title" textWrap="true" id="lblQuote" />
+            <Image src="{{ image }}" class="image" />
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem title="&#xf200; Chart">
+        <TabViewItem.view>
+          <chart:RadPieChart height="300">
+            <chart:RadPieChart.series>
+              <chart:PieSeries
+                selectionMode="None"
+                items="{{ movies }}"
+                outerRadiusFactor="0.8"
+                valueProperty="count"
+                legendLabel="movie"
+                showLabels="true">
+              </chart:PieSeries>
+            </chart:RadPieChart.series>
+            <chart:RadPieChart.legend>
+              <chart:RadLegendView
+                position="Right"
+                width="110" />
+            </chart:RadPieChart.legend>
+          </chart:RadPieChart>
+        </TabViewItem.view>
+      </TabViewItem>
+    </TabView.items>
+  </TabView>
+</Page>

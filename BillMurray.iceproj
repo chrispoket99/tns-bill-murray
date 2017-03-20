@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>dbc10085-3656-4fd8-b8c9-a49abaa2b978</ProjectGuid>
+    <ProjectTypeGuids>{F0A65104-D4F4-4012-B799-F612D75820F6}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include="app\app.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include=".gitignore" />
+    <Content Include="app\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app\main-page.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
+    <Content Include="app\app.css" />
+    <TypeScriptCompile Include="abreferences.d.ts" />
+    <TypeScriptCompile Include="app\app.ts" />
+    <Content Include="app\LICENSE" />
+    <TypeScriptCompile Include="app\main-page.ts" />
+    <Content Include="app\main-page.xml" />
+    <Content Include="app\package.json" />
+    <Content Include="app\App_Resources\Android\app.gradle" />
+    <Content Include="app\App_Resources\Android\drawable-hdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-hdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-hdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-ldpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-mdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xxxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-ldpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-ldpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-mdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-mdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxxhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\iOS\Default-568h@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-667h.png" />
+    <Content Include="app\App_Resources\iOS\Default-736h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-1366@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-667h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-736h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait-1366@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default.png" />
+    <Content Include="app\App_Resources\iOS\Default@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-40.png" />
+    <Content Include="app\App_Resources\iOS\icon-40@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-40@3x.png" />
+    <Content Include="app\App_Resources\iOS\icon-60.png" />
+    <Content Include="app\App_Resources\iOS\icon-60@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-60@3x.png" />
+    <Content Include="app\App_Resources\iOS\icon-72.png" />
+    <Content Include="app\App_Resources\iOS\icon-72@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-76.png" />
+    <Content Include="app\App_Resources\iOS\icon-76@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-83.5@2x.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small-50.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon.png" />
+    <Content Include="app\App_Resources\iOS\icon@2x.png" />
+    <Content Include="typings\tns-core-modules-schemas\tns.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\App_Resources\" />
+    <Folder Include="app\App_Resources\Android\" />
+    <Folder Include="app\App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-hdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-ldpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-mdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xxxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xxxhdpi\" />
+    <Folder Include="app\App_Resources\iOS\" />
+    <Folder Include="app\fonts\" />
+    <Folder Include="typings\" />
+    <Folder Include="typings\tns-core-modules-schemas\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>

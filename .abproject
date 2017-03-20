@@ -1,0 +1,28 @@
+{
+  "ProjectName": "BillMurray",
+  "ProjectGuid": "dbc10085-3656-4fd8-b8c9-a49abaa2b978",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.BillMurray",
+  "DisplayName": "BillMurray",
+  "Author": "",
+  "Description": "BillMurray",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "2.5.0",
+  "Framework": "NativeScript"
+}

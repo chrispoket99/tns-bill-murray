@@ -1,0 +1,27 @@
+.tab-content {
+    vertical-align: center;
+    color: #808080;
+    font-size: 24;
+    padding: 20;
+}
+
+.title {
+    margin: 0 0 10 0;
+    font-size: 24;
+    color: #3c3c3c;
+}
+
+.image {
+  margin: 20;
+}
+
+.action-bar {
+    background-color: #e0e0e0;
+}
+
+.tab-view {
+    tab-background-color: #1084ff;
+    tab-text-color: #ffffff;
+    selected-tab-text-color: #ffffff;
+    font-family: 'FontAwesome', fontawesome-webfont;
+}
